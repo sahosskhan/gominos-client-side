@@ -6,8 +6,8 @@ const Navbar = () => {
     const [isOpen, setIsOpen] = useState(false);
     return (
         <div>
-              <nav className="relative bg-lime-200 ">
-            <div className="container px-6 py-4 mx-auto">
+              <nav className=" bg-lime-200">
+            <div className=" px-6 py-4  container mx-auto max-w-screen-xl ">
                 <div className="lg:flex lg:items-center lg:justify-between">
                     <div className="flex items-center justify-between">
                    <div className="text-xl font-bold uppercase text-black">
