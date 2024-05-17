@@ -1,0 +1,114 @@
+[
+    {
+      "name": "Margherita",
+      "details": "Classic pizza with tomato sauce, mozzarella, and fresh basil.",
+      "category": "Vegetarian",
+      "quantity": 1,
+      "price": 8.99,
+      "origin": "Italy",
+      "user": "John Doe",
+      "email": "johndoe@example.com",
+      "image": "margherita.jpg"
+    },
+    {
+      "name": "Pepperoni",
+      "details": "Spicy pepperoni with tomato sauce and mozzarella cheese.",
+      "category": "Meat",
+      "quantity": 1,
+      "price": 10.99,
+      "origin": "USA",
+      "user": "Jane Smith",
+      "email": "janesmith@example.com",
+      "image": "pepperoni.jpg"
+    },
+    {
+      "name": "BBQ Chicken",
+      "details": "Grilled chicken, BBQ sauce, red onions, and cilantro.",
+      "category": "Meat",
+      "quantity": 1,
+      "price": 12.99,
+      "origin": "USA",
+      "user": "Chris Johnson",
+      "email": "chrisjohnson@example.com",
+      "image": "bbq_chicken.jpg"
+    },
+    {
+      "name": "Hawaiian",
+      "details": "Ham, pineapple, and mozzarella cheese.",
+      "category": "Meat",
+      "quantity": 1,
+      "price": 11.99,
+      "origin": "Canada",
+      "user": "Alice Brown",
+      "email": "alicebrown@example.com",
+      "image": "hawaiian.jpg"
+    },
+    {
+      "name": "Veggie Supreme",
+      "details": "Bell peppers, onions, mushrooms, olives, and mozzarella.",
+      "category": "Vegetarian",
+      "quantity": 1,
+      "price": 9.99,
+      "origin": "Italy",
+      "user": "Michael Davis",
+      "email": "michaeldavis@example.com",
+      "image": "veggie_supreme.jpg"
+    },
+    {
+      "name": "Meat Lovers",
+      "details": "Pepperoni, sausage, bacon, ham, and mozzarella.",
+      "category": "Meat",
+      "quantity": 1,
+      "price": 13.99,
+      "origin": "USA",
+      "user": "Sarah Wilson",
+      "email": "sarahwilson@example.com",
+      "image": "meat_lovers.jpg"
+    },
+    {
+      "name": "Four Cheese",
+      "details": "Mozzarella, cheddar, parmesan, and gorgonzola.",
+      "category": "Vegetarian",
+      "quantity": 1,
+      "price": 10.99,
+      "origin": "Italy",
+      "user": "David Martinez",
+      "email": "davidmartinez@example.com",
+      "image": "four_cheese.jpg"
+    },
+    {
+      "name": "Buffalo Chicken",
+      "details": "Spicy buffalo chicken, red onions, and mozzarella.",
+      "category": "Meat",
+      "quantity": 1,
+      "price": 12.99,
+      "origin": "USA",
+      "user": "Emma Garcia",
+      "email": "emmagarcia@example.com",
+      "image": "buffalo_chicken.jpg"
+    },
+    {
+      "name": "Mushroom Truffle",
+      "details": "Mushrooms, truffle oil, and mozzarella.",
+      "category": "Vegetarian",
+      "quantity": 1,
+      "price": 14.99,
+      "origin": "Italy",
+      "user": "Robert Lee",
+      "email": "robertlee@example.com",
+      "image": "mushroom_truffle.jpg"
+    },
+    {
+      "name": "Pesto Chicken",
+      "details": "Grilled chicken, pesto sauce, and mozzarella.",
+      "category": "Meat",
+      "quantity": 1,
+      "price": 12.49,
+      "origin": "Italy",
+      "user": "Jessica White",
+      "email": "jessicawhite@example.com",
+      "image": "pesto_chicken.jpg"
+    }
+
+  ]
+  
