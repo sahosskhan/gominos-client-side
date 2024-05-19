@@ -10,6 +10,10 @@ export const router = createBrowserRouter([
      {
         path: "/",
         element: <Home/>,
+        loader: () =>
+          fetch(
+            "food.json"
+          ),
      }
 
       ]

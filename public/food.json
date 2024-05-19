@@ -1,114 +1,152 @@
 [
-    {
-      "name": "Margherita",
-      "details": "Classic pizza with tomato sauce, mozzarella, and fresh basil.",
-      "category": "Vegetarian",
-      "quantity": 1,
-      "price": 8.99,
-      "origin": "Italy",
-      "user": "John Doe",
-      "email": "johndoe@example.com",
-      "image": "margherita.jpg"
-    },
-    {
-      "name": "Pepperoni",
-      "details": "Spicy pepperoni with tomato sauce and mozzarella cheese.",
-      "category": "Meat",
-      "quantity": 1,
-      "price": 10.99,
-      "origin": "USA",
-      "user": "Jane Smith",
-      "email": "janesmith@example.com",
-      "image": "pepperoni.jpg"
-    },
-    {
-      "name": "BBQ Chicken",
-      "details": "Grilled chicken, BBQ sauce, red onions, and cilantro.",
-      "category": "Meat",
-      "quantity": 1,
-      "price": 12.99,
-      "origin": "USA",
-      "user": "Chris Johnson",
-      "email": "chrisjohnson@example.com",
-      "image": "bbq_chicken.jpg"
-    },
-    {
-      "name": "Hawaiian",
-      "details": "Ham, pineapple, and mozzarella cheese.",
-      "category": "Meat",
-      "quantity": 1,
-      "price": 11.99,
-      "origin": "Canada",
-      "user": "Alice Brown",
-      "email": "alicebrown@example.com",
-      "image": "hawaiian.jpg"
-    },
-    {
-      "name": "Veggie Supreme",
-      "details": "Bell peppers, onions, mushrooms, olives, and mozzarella.",
-      "category": "Vegetarian",
-      "quantity": 1,
-      "price": 9.99,
-      "origin": "Italy",
-      "user": "Michael Davis",
-      "email": "michaeldavis@example.com",
-      "image": "veggie_supreme.jpg"
-    },
-    {
-      "name": "Meat Lovers",
-      "details": "Pepperoni, sausage, bacon, ham, and mozzarella.",
-      "category": "Meat",
-      "quantity": 1,
-      "price": 13.99,
-      "origin": "USA",
-      "user": "Sarah Wilson",
-      "email": "sarahwilson@example.com",
-      "image": "meat_lovers.jpg"
-    },
-    {
-      "name": "Four Cheese",
-      "details": "Mozzarella, cheddar, parmesan, and gorgonzola.",
-      "category": "Vegetarian",
-      "quantity": 1,
-      "price": 10.99,
-      "origin": "Italy",
-      "user": "David Martinez",
-      "email": "davidmartinez@example.com",
-      "image": "four_cheese.jpg"
-    },
-    {
-      "name": "Buffalo Chicken",
-      "details": "Spicy buffalo chicken, red onions, and mozzarella.",
-      "category": "Meat",
-      "quantity": 1,
-      "price": 12.99,
-      "origin": "USA",
-      "user": "Emma Garcia",
-      "email": "emmagarcia@example.com",
-      "image": "buffalo_chicken.jpg"
-    },
-    {
-      "name": "Mushroom Truffle",
-      "details": "Mushrooms, truffle oil, and mozzarella.",
-      "category": "Vegetarian",
-      "quantity": 1,
-      "price": 14.99,
-      "origin": "Italy",
-      "user": "Robert Lee",
-      "email": "robertlee@example.com",
-      "image": "mushroom_truffle.jpg"
-    },
-    {
-      "name": "Pesto Chicken",
-      "details": "Grilled chicken, pesto sauce, and mozzarella.",
-      "category": "Meat",
-      "quantity": 1,
-      "price": 12.49,
-      "origin": "Italy",
-      "user": "Jessica White",
-      "email": "jessicawhite@example.com",
-      "image": "pesto_chicken.jpg"
-    }
-
-  ]
-  
+  {
+    "name": "Margherita Pizza",
+    "details": "Classic Margherita with fresh tomatoes, mozzarella, and basil.",
+    "category": "Pizza",
+    "quantity": 1,
+    "price": 8.99,
+    "origin": "Italy",
+    "email": "admin@gominos.com",
+    "image": "https://i.ibb.co/6YGJNr1/image.png"
+  },
+  {
+    "name": "Pepperoni Pizza",
+    "details": "Pepperoni, mozzarella cheese, and tomato sauce.",
+    "category": "Pizza",
+    "quantity": 1,
+    "price": 10.99,
+    "origin": "USA",
+    "email": "admin@gominos.com",
+    "image": "https://i.ibb.co/x3Gz78J/image.png"
+  },
+  {
+    "name": "Veggie Pizza",
+    "details": "Bell peppers, onions, mushrooms, olives, and mozzarella.",
+    "category": "Pizza",
+    "quantity": 1,
+    "price": 9.99,
+    "origin": "USA",
+    "email": "admin@gominos.com",
+    "image": "https://i.ibb.co/0mcxYtK/image.png"
+  },
+  {
+    "name": "Cheeseburger",
+    "details": "Juicy beef patty with cheddar cheese, lettuce, and tomato.",
+    "category": "Burger",
+    "quantity": 1,
+    "price": 7.99,
+    "origin": "USA",
+    "email": "admin@gominos.com",
+    "image": "https://i.ibb.co/S55NHkr/image.png"
+  },
+  {
+    "name": "Bacon Burger",
+    "details": "Beef patty with crispy bacon, cheddar cheese, and BBQ sauce.",
+    "category": "Burger",
+    "quantity": 1,
+    "price": 8.99,
+    "origin": "USA",
+    "email": "admin@gominos.com",
+    "image": "https://i.ibb.co/StZgWr8/image.png"
+  },
+  {
+    "name": "Veggie Burger",
+    "details": "Grilled veggie patty with lettuce, tomato, and avocado.",
+    "category": "Burger",
+    "quantity": 1,
+    "price": 7.49,
+    "origin": "USA",
+    "email": "admin@gominos.com",
+    "image": "https://i.ibb.co/BwQJVhd/ai-generated-tasty-burger-fast-food-meal-isolated-on-transparent-background-png.png"
+  },
+  {
+    "name": "French Fries",
+    "details": "Crispy golden fries with a side of ketchup.",
+    "category": "Fries",
+    "quantity": 1,
+    "price": 2.99,
+    "origin": "Belgium",
+    "email": "admin@gominos.com",
+    "image": "https://i.ibb.co/hHYZDFd/image.png"
+  },
+  {
+    "name": "Cheese Fries",
+    "details": "Fries topped with melted cheddar cheese.",
+    "category": "Fries",
+    "quantity": 1,
+    "price": 3.99,
+    "origin": "Belgium",
+    "email": "admin@gominos.com",
+    "image": "https://i.ibb.co/YZZ8ZJ0/image.png"
+  },
+  {
+    "name": "Loaded Fries",
+    "details": "Fries with cheese, bacon, and jalapeños.",
+    "category": "Fries",
+    "quantity": 1,
+    "price": 4.99,
+    "origin": "Belgium",
+    "email": "admin@gominos.com",
+    "image": "https://i.ibb.co/1bJt3q0/image.png"
+  },
+  {
+    "name": "Fried Chicken",
+    "details": "Crispy fried chicken served with a side of coleslaw.",
+    "category": "Chicken",
+    "quantity": 1,
+    "price": 9.99,
+    "origin": "USA",
+    "email": "admin@gominos.com",
+    "image": "https://i.ibb.co/b3ssjwb/image.png"
+  },
+  {
+    "name": "Grilled Chicken",
+    "details": "Grilled chicken breast with herbs and spices.",
+    "category": "Chicken",
+    "quantity": 1,
+    "price": 8.99,
+    "origin": "USA",
+    "email": "admin@gominos.com",
+    "image": "https://i.ibb.co/7SnBRfk/image.png"
+  },
+  {
+    "name": "Chicken Nuggets",
+    "details": "Breaded and fried chicken nuggets with dipping sauce.",
+    "category": "Chicken",
+    "quantity": 1,
+    "price": 5.99,
+    "origin": "USA",
+    "email": "admin@gominos.com",
+    "image": "https://i.ibb.co/1JkHsKM/image.png"
+  },
+  {
+    "name": "Coca Cola ",
+    "details": "Classic taste of coca cola with chilled ice.",
+    "category": "Cold Drink",
+    "quantity": 1,
+    "price": 1.99,
+    "origin": "USA",
+    "email": "admin@gominos.com",
+    "image": "https://i.ibb.co/crnRHbj/image.png"
+  },
+  {
+    "name": "Sprite",
+    "details": "Refreshing lemon-lime soda with chilled ice. .",
+    "category": "Cold Drink",
+    "quantity": 1,
+    "price": 1.99,
+    "origin": "USA",
+    "email": "admin@gominos.com",
+    "image": "https://i.ibb.co/BGpnCMq/image.png"
+  },
+  {
+    "name": "Iced Tea",
+    "details": "Chilled black tea with a hint of lemon.",
+    "category": "Cold Drink",
+    "quantity": 1,
+    "price": 1.99,
+    "origin": "USA",
+    "email": "admin@gominos.com",
+    "image": "https://i.ibb.co/r50wQv9/image.png"
+  }
+]
