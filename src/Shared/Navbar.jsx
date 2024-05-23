@@ -1,9 +1,13 @@
-import { useState } from "react";
+import {useState } from "react";
 import { Link } from "react-router-dom";
-
+import useUserExist from "../Hooks/useUserExist";
 
 const Navbar = () => {
     const [isOpen, setIsOpen] = useState(false);
+  const {imageFilter, handleLogout, emailFilter} = useUserExist({});
+  console.log(imageFilter);
+
+
     return (
         <div>
               <nav className=" bg-lime-200">
@@ -40,15 +44,34 @@ const Navbar = () => {
                             <div className="dropdown dropdown-end">
       <div tabIndex={0} role="button" className="btn  btn-circle avatar">
         <div className="w-10 rounded-full">
-          <img alt="Tailwind CSS Navbar component" src="avatar.png" />
+            {
+                emailFilter==""? (
+                    <img alt="" src="avatar.png" />
+                    
+                ) : (
+                    <img alt="" src={imageFilter} />
+                )
+            }
         </div>
       </div>
       <ul tabIndex={0} className="mt-3 z-[1] p-2 shadow menu  dropdown-content bg-lime-200 rounded-box w-52">
-        <li className="ct-nav px-3 py-2 mx-3 mt-2 text-gray-700 transition-colors duration-300 transform rounded-md lg:mt-0  hover:bg-gray-50 font-semibold text-base "><a>Add Food</a></li>
-        <li className="ct-nav px-3 py-2 mx-3 mt-2 text-gray-700 transition-colors duration-300 transform rounded-md lg:mt-0  hover:bg-gray-50 font-semibold text-base "><a>My Listing</a></li>
-        <li className="ct-nav px-3 py-2 mx-3 mt-2 text-gray-700 transition-colors duration-300 transform rounded-md lg:mt-0  hover:bg-gray-50 font-semibold text-base "><a>Register</a></li>
-        <li className="ct-nav px-3 py-2 mx-3 mt-2 text-gray-700 transition-colors duration-300 transform rounded-md lg:mt-0  hover:bg-gray-50 font-semibold text-base "><a>Login</a></li>
-        <li className="ct-nav px-3 py-2 mx-3 mt-2 text-gray-700 transition-colors duration-300 transform rounded-md lg:mt-0  hover:bg-gray-50 font-semibold text-base "><a>Logout</a></li>
+        {
+             emailFilter==""? <>
+       <li className="act-nav px-3 py-2 mx-3 mt-2 text-gray-700 transition-colors duration-300 transform rounded-md lg:mt-0  hover:bg-gray-50 font-semibold text-base "><a href="/register-account">Register</a></li>
+        <li className="act-nav px-3 py-2 mx-3 mt-2 text-gray-700 transition-colors duration-300 transform rounded-md lg:mt-0  hover:bg-gray-50 font-semibold text-base "><a href="/login-account">Login</a></li>
+        </>
+        :
+        <>
+        <li className="act-nav px-3 py-2 mx-3 mt-2 text-gray-700 transition-colors duration-300 transform rounded-md lg:mt-0  hover:bg-gray-50 font-semibold text-base "><a>Profile</a></li>
+        <li className="act-nav px-3 py-2 mx-3 mt-2 text-gray-700 transition-colors duration-300 transform rounded-md lg:mt-0  hover:bg-gray-50 font-semibold text-base "><a>Add Food</a></li>
+        <li className="act-nav px-3 py-2 mx-3 mt-2 text-gray-700 transition-colors duration-300 transform rounded-md lg:mt-0  hover:bg-gray-50 font-semibold text-base "><a>My Listing</a></li>
+        <li onClick={handleLogout} className="act-nav px-3 py-2 mx-3 mt-2 text-gray-700 transition-colors duration-300 transform rounded-md lg:mt-0  hover:bg-gray-50 font-semibold text-base "><a>Logout</a></li>
+        </>
+        }
+      
+
+
+    
         
       </ul>
     </div>

@@ -5,7 +5,7 @@
     "category": "Pizza",
     "quantity": 1,
     "price": 8.99,
-    "origin": "Italy",
+    "order":0,
     "email": "admin@gominos.com",
     "image": "https://i.ibb.co/6YGJNr1/image.png"
   },
@@ -15,7 +15,7 @@
     "category": "Pizza",
     "quantity": 1,
     "price": 10.99,
-    "origin": "USA",
+      "order":0,
     "email": "admin@gominos.com",
     "image": "https://i.ibb.co/x3Gz78J/image.png"
   },
@@ -25,7 +25,7 @@
     "category": "Pizza",
     "quantity": 1,
     "price": 9.99,
-    "origin": "USA",
+      "order":0,
     "email": "admin@gominos.com",
     "image": "https://i.ibb.co/0mcxYtK/image.png"
   },
@@ -35,7 +35,7 @@
     "category": "Burger",
     "quantity": 1,
     "price": 7.99,
-    "origin": "USA",
+      "order":0,
     "email": "admin@gominos.com",
     "image": "https://i.ibb.co/S55NHkr/image.png"
   },
@@ -45,7 +45,7 @@
     "category": "Burger",
     "quantity": 1,
     "price": 8.99,
-    "origin": "USA",
+      "order":0,
     "email": "admin@gominos.com",
     "image": "https://i.ibb.co/StZgWr8/image.png"
   },
@@ -55,7 +55,7 @@
     "category": "Burger",
     "quantity": 1,
     "price": 7.49,
-    "origin": "USA",
+      "order":0,
     "email": "admin@gominos.com",
     "image": "https://i.ibb.co/BwQJVhd/ai-generated-tasty-burger-fast-food-meal-isolated-on-transparent-background-png.png"
   },
@@ -65,7 +65,7 @@
     "category": "Fries",
     "quantity": 1,
     "price": 2.99,
-    "origin": "Belgium",
+      "order":0,
     "email": "admin@gominos.com",
     "image": "https://i.ibb.co/hHYZDFd/image.png"
   },
@@ -75,7 +75,7 @@
     "category": "Fries",
     "quantity": 1,
     "price": 3.99,
-    "origin": "Belgium",
+      "order":0,
     "email": "admin@gominos.com",
     "image": "https://i.ibb.co/YZZ8ZJ0/image.png"
   },
@@ -85,7 +85,7 @@
     "category": "Fries",
     "quantity": 1,
     "price": 4.99,
-    "origin": "Belgium",
+      "order":0,
     "email": "admin@gominos.com",
     "image": "https://i.ibb.co/1bJt3q0/image.png"
   },
@@ -95,7 +95,7 @@
     "category": "Chicken",
     "quantity": 1,
     "price": 9.99,
-    "origin": "USA",
+      "order":0,
     "email": "admin@gominos.com",
     "image": "https://i.ibb.co/b3ssjwb/image.png"
   },
@@ -105,7 +105,7 @@
     "category": "Chicken",
     "quantity": 1,
     "price": 8.99,
-    "origin": "USA",
+      "order":0,
     "email": "admin@gominos.com",
     "image": "https://i.ibb.co/7SnBRfk/image.png"
   },
@@ -115,7 +115,7 @@
     "category": "Chicken",
     "quantity": 1,
     "price": 5.99,
-    "origin": "USA",
+      "order":0,
     "email": "admin@gominos.com",
     "image": "https://i.ibb.co/1JkHsKM/image.png"
   },
@@ -125,7 +125,7 @@
     "category": "Cold Drink",
     "quantity": 1,
     "price": 1.99,
-    "origin": "USA",
+      "order":0,
     "email": "admin@gominos.com",
     "image": "https://i.ibb.co/crnRHbj/image.png"
   },
@@ -135,7 +135,7 @@
     "category": "Cold Drink",
     "quantity": 1,
     "price": 1.99,
-    "origin": "USA",
+      "order":0,
     "email": "admin@gominos.com",
     "image": "https://i.ibb.co/BGpnCMq/image.png"
   },
@@ -145,7 +145,7 @@
     "category": "Cold Drink",
     "quantity": 1,
     "price": 1.99,
-    "origin": "USA",
+      "order":0,
     "email": "admin@gominos.com",
     "image": "https://i.ibb.co/r50wQv9/image.png"
   }
