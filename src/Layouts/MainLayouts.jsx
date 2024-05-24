@@ -4,7 +4,7 @@ import Navbar from "../Shared/Navbar";
 
 const MainLayouts = () => {
     return (
-        <div>
+        <div className="bg-lime-50">
             <Navbar/>
            <Outlet/>
         </div>

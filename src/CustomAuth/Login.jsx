@@ -17,7 +17,7 @@ const Login = () => {
 
         const hashedEmail = CryptoJS.AES.encrypt(email, secretKey).toString();
         const hashedPassword = CryptoJS.AES.encrypt(password, secretKey).toString();
-        const expirationTime = Date.now() + 3600 * 1000; // 1 hour expiration
+        const expirationTime = Date.now() + 3600 * 3000; // 1 hour expiration
     
         const data = {
           email: hashedEmail,

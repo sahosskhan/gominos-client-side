@@ -9,7 +9,7 @@ const useUserExist = () => {
   
     const [storedEmail, setStoredEmail] = useState('');
     const [storedPassword, setStoredPassword] = useState('');
-const [AllUserData, refetch] = useUser([]);
+const [AllUserData] = useUser([]);
 
 const FilterUserList = AllUserData.filter(item => item.email === storedEmail && item.password === storedPassword);
 const emailFilter = FilterUserList.map(user => user.email).join(', ');
@@ -25,7 +25,6 @@ useEffect(() => {
       const { email, password, expiration } = JSON.parse(storedData);
 
       if (Date.now() > expiration) {
-        alert('Session expired');
         sessionStorage.removeItem('userData');
       } else {
         const bytesEmail = CryptoJS.AES.decrypt(email, secretKey);

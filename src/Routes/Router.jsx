@@ -3,6 +3,7 @@ import MainLayouts from "../Layouts/MainLayouts";
 import Home from "../Pages/Home";
 import Register from "../CustomAuth/Register";
 import Login from "../CustomAuth/Login";
+import AddFood from "../Pages/AddFood";
 
 export const router = createBrowserRouter([
     {
@@ -16,6 +17,10 @@ export const router = createBrowserRouter([
           fetch(
             "http://localhost:5000/food-data-get"
           ),
+     },
+     {
+      path: "/add-items",
+      element: <AddFood/>,
      }
 
       ]

@@ -3,8 +3,8 @@ import { useNavigate } from "react-router-dom";
 import Swal from "sweetalert2";
 
 const Register = () => {
+  const navigate = useNavigate();
     const [showName, setShowName] = useState({});
-    const navigate = useNavigate();
     const [showImagePreview, setShowImagePreview] = useState({});
     const fileInputRef = useRef();
     const handleClearFile = () => {

@@ -5,7 +5,7 @@ import useUserExist from "../Hooks/useUserExist";
 const Navbar = () => {
     const [isOpen, setIsOpen] = useState(false);
   const {imageFilter, handleLogout, emailFilter} = useUserExist({});
-  console.log(imageFilter);
+
 
 
     return (
@@ -45,7 +45,7 @@ const Navbar = () => {
       <div tabIndex={0} role="button" className="btn  btn-circle avatar">
         <div className="w-10 rounded-full">
             {
-                emailFilter==""? (
+                imageFilter==""? (
                     <img alt="" src="avatar.png" />
                     
                 ) : (
@@ -63,7 +63,7 @@ const Navbar = () => {
         :
         <>
         <li className="act-nav px-3 py-2 mx-3 mt-2 text-gray-700 transition-colors duration-300 transform rounded-md lg:mt-0  hover:bg-gray-50 font-semibold text-base "><a>Profile</a></li>
-        <li className="act-nav px-3 py-2 mx-3 mt-2 text-gray-700 transition-colors duration-300 transform rounded-md lg:mt-0  hover:bg-gray-50 font-semibold text-base "><a>Add Food</a></li>
+        <li className="act-nav px-3 py-2 mx-3 mt-2 text-gray-700 transition-colors duration-300 transform rounded-md lg:mt-0  hover:bg-gray-50 font-semibold text-base "><a href="/add-items">Add Items</a></li>
         <li className="act-nav px-3 py-2 mx-3 mt-2 text-gray-700 transition-colors duration-300 transform rounded-md lg:mt-0  hover:bg-gray-50 font-semibold text-base "><a>My Listing</a></li>
         <li onClick={handleLogout} className="act-nav px-3 py-2 mx-3 mt-2 text-gray-700 transition-colors duration-300 transform rounded-md lg:mt-0  hover:bg-gray-50 font-semibold text-base "><a>Logout</a></li>
         </>
