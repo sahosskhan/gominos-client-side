@@ -2,13 +2,17 @@ import { Link } from "react-router-dom";
 
 // eslint-disable-next-line react/prop-types
 const FeaturedFood = ({items}) => {
-    const {_id,name, image, stock} = items || {};
+    const {_id,name, image, stock,price,discount} = items || {};
+    const newprice = price-price*(discount/100);
     return (
 <Link to={`/single-items/${_id}`}>
 <div className="max-w-full rounded-xl shadow bg-white space-y-3 h-80 ">
 
 <div className="p-2">
+<div className="flex justify-between">
 <h1 className="bg-red-600 mb-5 font-sans rounded-md  w-24 text-center text-xl font-medium text-white">Stock: {stock}</h1>
+<h1 className="text-black  mb-5 font-sans rounded-md  w-24 text-center text-lg font-medium"><span className="line-through  text-black/50">{price}</span> {newprice}$</h1>
+</div>
 <h1 className="text-2xl text-center font-semibold uppercase">{name}</h1>
 </div>
 
