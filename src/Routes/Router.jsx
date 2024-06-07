@@ -4,6 +4,8 @@ import Home from "../Pages/Home";
 import Register from "../CustomAuth/Register";
 import Login from "../CustomAuth/Login";
 import AddFood from "../Pages/AddFood";
+import SingleFoodPage from "../Components/SingleFoodPage";
+import ListingFood from "../Pages/Listing/ListingFood";
 
 export const router = createBrowserRouter([
     {
@@ -21,7 +23,23 @@ export const router = createBrowserRouter([
      {
       path: "/add-items",
       element: <AddFood/>,
-     }
+     },
+     {
+      path: "/my-listing-food",
+      element: <ListingFood/>,
+      loader: () =>
+      fetch(
+        "http://localhost:5000/food-data-get"
+      ),
+    },
+     {
+      path: "/single-items/:id",
+      element: <SingleFoodPage/>,
+      loader: ({params}) =>
+      fetch(
+        `http://localhost:5000/single-food-data/${params?.id}`
+      ),
+    },
 
       ]
     },

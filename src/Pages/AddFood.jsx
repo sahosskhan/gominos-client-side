@@ -47,13 +47,14 @@ const AddFood = () => {
     const name = from.name.value;
     const email = emailFilter;
     const category = from.category.value;
-    const price = from.price.value;
-    const discount = from.discount.value;
+    const price = Number(from.price.value);
+    const discount = Number(from.discount.value);
     const details = from.details.value;
-    const stock = from.stock.value;
+    const stock = Number(from.stock.value);
+    const order = 0
 
 
-const ItemsData = { name, email, image, category, price, discount, details, stock };
+const ItemsData = { name, email, image, category, price, discount, details, stock,order };
 
 
 from.name.value = "";
@@ -75,7 +76,6 @@ fetch(
     )
     .then((res) => res.json())
     .then((data) => {
-    console.log(data);
     if (data.insertedId) {
       Swal.fire({
         title: "Successfully!",
@@ -84,7 +84,7 @@ fetch(
         timer: 3000,
         showConfirmButton: false,
       });
-      navigate("/")
+      navigate("/my-listing-food")
     }
     });
         }

@@ -64,7 +64,7 @@ const Navbar = () => {
         <>
         <li className="act-nav px-3 py-2 mx-3 mt-2 text-gray-700 transition-colors duration-300 transform rounded-md lg:mt-0  hover:bg-gray-50 font-semibold text-base "><a>Profile</a></li>
         <li className="act-nav px-3 py-2 mx-3 mt-2 text-gray-700 transition-colors duration-300 transform rounded-md lg:mt-0  hover:bg-gray-50 font-semibold text-base "><a href="/add-items">Add Items</a></li>
-        <li className="act-nav px-3 py-2 mx-3 mt-2 text-gray-700 transition-colors duration-300 transform rounded-md lg:mt-0  hover:bg-gray-50 font-semibold text-base "><a>My Listing</a></li>
+        <li className="act-nav px-3 py-2 mx-3 mt-2 text-gray-700 transition-colors duration-300 transform rounded-md lg:mt-0  hover:bg-gray-50 font-semibold text-base "><a href="/my-listing-food">My Listing</a></li>
         <li onClick={handleLogout} className="act-nav px-3 py-2 mx-3 mt-2 text-gray-700 transition-colors duration-300 transform rounded-md lg:mt-0  hover:bg-gray-50 font-semibold text-base "><a>Logout</a></li>
         </>
         }
